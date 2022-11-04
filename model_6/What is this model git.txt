@@ -1,0 +1,12 @@
+This model is going to be used for your machine learning comparison paper.It is the re-run of ml_4 with the updated DLC, as you re-ran ml_5 you needed to re-run
+this, even though it is no different, because DLC has been updated and you're comparing to ml_5
+It contains just your own marked frames. 
+
+Training set:
+Total videos: 55
+Total frames: 1375
+Total no. markers: 1 (Charlotte)
+Total no. populations: 4
+Species: 2 (chimps and bonobos) 
+ 
+This is 'model 1' in the ML paper
