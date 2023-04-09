@@ -1,0 +1,13 @@
+This is 'model 2' in the DeepWild paper. 
+
+After getting reviewer comments back for our original submission, we re-trained the model with more Bossou frames.
+It contains frames marked by Viola and Charlotte 
+Increased no. individuals to 7 to accomadate Bossou videos
+
+
+Training set:
+Total videos: 110
+Total marked frames: TBC- some videos 20 marked frames otghers 10
+Total no. markers: 2 (Charlotte & Viola)
+Total no. populations: 5
+Species: 2 (chimps and bonobos) 
