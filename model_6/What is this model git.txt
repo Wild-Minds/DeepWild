@@ -1,6 +1,6 @@
-This model is going to be used for your machine learning comparison paper.It is the re-run of ml_4 with the updated DLC, as you re-ran ml_5 you needed to re-run
-this, even though it is no different, because DLC has been updated and you're comparing to ml_5
-It contains just your own marked frames. 
+This is 'Model 1' in the DeepWild paper.
+This model has not changed from the original submission, but because 'Model 2' was re-trained for the paper to contain more frames, this model was also re-trained to allow fair comparison as DeepLabCut had been updated.
+It contains frames marked by Charlotte. 
 
 Training set:
 Total videos: 55
@@ -9,4 +9,3 @@ Total no. markers: 1 (Charlotte)
 Total no. populations: 4
 Species: 2 (chimps and bonobos) 
  
-This is 'model 1' in the ML paper
