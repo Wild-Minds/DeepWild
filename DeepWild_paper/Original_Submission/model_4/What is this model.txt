@@ -1,7 +1,6 @@
-This model is going to be used for your machine learning comparison paper. 
-It contains just your own marked frames. 
-it also has the videos that were too large removed from the training set. 
-Anything with the last crop number in the config higher than 1080 isn't actually used in training!  
+This is 'Model 1' of the original submission of DeepWild paper
+It contains frames marked by Charlotte
+
 
 
 Training set:
