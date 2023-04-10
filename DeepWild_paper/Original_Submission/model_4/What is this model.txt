@@ -1,0 +1,13 @@
+This model is going to be used for your machine learning comparison paper. 
+It contains just your own marked frames. 
+it also has the videos that were too large removed from the training set. 
+Anything with the last crop number in the config higher than 1080 isn't actually used in training!  
+
+
+Training set:
+Total videos: 55
+Total frames: 1375
+Total no. markers: 1 (Charlotte)
+Total no. populations: 4
+Species: 2 (chimps and bonobos) 
+ 
