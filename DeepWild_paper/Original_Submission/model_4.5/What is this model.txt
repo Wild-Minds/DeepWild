@@ -1,5 +1,6 @@
-This model is going to be used for your machine learning comparison paper. 
-It contains your own marked frames and 15 videos with corrected frames from Viola (kalinzu1-15). 
+This is 'Model 2' in the original submission of the deepwild paper.
+It contains frames marked by charlotte and viola
+
 
 Training set:
 Total videos: 70
