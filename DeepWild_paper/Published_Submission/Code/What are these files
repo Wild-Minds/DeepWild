@@ -1,0 +1,2 @@
+plot.loss zip folder: Code to geenerate a loss graph when training DLC so you can visualise when loss plateaus (and you should stop training)
+
