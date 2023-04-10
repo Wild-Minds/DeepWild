@@ -1,0 +1,941 @@
+2022-03-11 20:01:26 Config:
+{'all_joints': [[0],
+                [1],
+                [2],
+                [3],
+                [4],
+                [5],
+                [6],
+                [7],
+                [8],
+                [9],
+                [10],
+                [11],
+                [12],
+                [13],
+                [14],
+                [15],
+                [16],
+                [17]],
+ 'all_joints_names': ['left_ear',
+                      'right_ear',
+                      'left_eye',
+                      'right_eye',
+                      'nose',
+                      'left_shoulder',
+                      'right_shoulder',
+                      'lower_neck',
+                      'left_elbow',
+                      'right_elbow',
+                      'left_wrist',
+                      'right_wrist',
+                      'left_hip',
+                      'right_hip',
+                      'left_knee',
+                      'right_knee',
+                      'left_ankle',
+                      'right_ankle'],
+ 'alpha_r': 0.02,
+ 'apply_prob': 0.5,
+ 'batch_size': 8,
+ 'clahe': True,
+ 'claheratio': 0.1,
+ 'crop_pad': 0,
+ 'crop_sampling': 'hybrid',
+ 'crop_size': [400, 400],
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_ml_comparison_4Mar11\\ml_comparison_4_Charlotte95shuffle1.pickle',
+ 'dataset_type': 'multi-animal-imgaug',
+ 'decay_steps': 30000,
+ 'deterministic': False,
+ 'display_iters': 500,
+ 'edge': False,
+ 'emboss': {'alpha': [0.0, 1.0], 'embossratio': 0.1, 'strength': [0.5, 1.5]},
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'histeq': True,
+ 'histeqratio': 0.1,
+ 'init_weights': 'C:\\Users\\cw266\\Anaconda3\\envs\\DEEPLABCUT4\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'lr_init': 0.0005,
+ 'max_input_size': 1500,
+ 'max_shift': 0.4,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_ml_comparison_4Mar11\\Documentation_data-ml_comparison_4_95shuffle1.pickle',
+ 'min_input_size': 64,
+ 'mirror': False,
+ 'multi_stage': True,
+ 'multi_step': [[0.0001, 7500], [5e-05, 12000], [1e-05, 200000]],
+ 'net_type': 'resnet_50',
+ 'num_idchannel': 0,
+ 'num_joints': 18,
+ 'num_limbs': 153,
+ 'optimizer': 'adam',
+ 'pafwidth': 20,
+ 'pairwise_huber_loss': False,
+ 'pairwise_loss_weight': 0.1,
+ 'pairwise_predict': False,
+ 'partaffinityfield_graph': [[0, 1],
+                             [0, 2],
+                             [0, 3],
+                             [0, 4],
+                             [0, 5],
+                             [0, 6],
+                             [0, 7],
+                             [0, 8],
+                             [0, 9],
+                             [0, 10],
+                             [0, 11],
+                             [0, 12],
+                             [0, 13],
+                             [0, 14],
+                             [0, 15],
+                             [0, 16],
+                             [0, 17],
+                             [1, 2],
+                             [1, 3],
+                             [1, 4],
+                             [1, 5],
+                             [1, 6],
+                             [1, 7],
+                             [1, 8],
+                             [1, 9],
+                             [1, 10],
+                             [1, 11],
+                             [1, 12],
+                             [1, 13],
+                             [1, 14],
+                             [1, 15],
+                             [1, 16],
+                             [1, 17],
+                             [2, 3],
+                             [2, 4],
+                             [2, 5],
+                             [2, 6],
+                             [2, 7],
+                             [2, 8],
+                             [2, 9],
+                             [2, 10],
+                             [2, 11],
+                             [2, 12],
+                             [2, 13],
+                             [2, 14],
+                             [2, 15],
+                             [2, 16],
+                             [2, 17],
+                             [3, 4],
+                             [3, 5],
+                             [3, 6],
+                             [3, 7],
+                             [3, 8],
+                             [3, 9],
+                             [3, 10],
+                             [3, 11],
+                             [3, 12],
+                             [3, 13],
+                             [3, 14],
+                             [3, 15],
+                             [3, 16],
+                             [3, 17],
+                             [4, 5],
+                             [4, 6],
+                             [4, 7],
+                             [4, 8],
+                             [4, 9],
+                             [4, 10],
+                             [4, 11],
+                             [4, 12],
+                             [4, 13],
+                             [4, 14],
+                             [4, 15],
+                             [4, 16],
+                             [4, 17],
+                             [5, 6],
+                             [5, 7],
+                             [5, 8],
+                             [5, 9],
+                             [5, 10],
+                             [5, 11],
+                             [5, 12],
+                             [5, 13],
+                             [5, 14],
+                             [5, 15],
+                             [5, 16],
+                             [5, 17],
+                             [6, 7],
+                             [6, 8],
+                             [6, 9],
+                             [6, 10],
+                             [6, 11],
+                             [6, 12],
+                             [6, 13],
+                             [6, 14],
+                             [6, 15],
+                             [6, 16],
+                             [6, 17],
+                             [7, 8],
+                             [7, 9],
+                             [7, 10],
+                             [7, 11],
+                             [7, 12],
+                             [7, 13],
+                             [7, 14],
+                             [7, 15],
+                             [7, 16],
+                             [7, 17],
+                             [8, 9],
+                             [8, 10],
+                             [8, 11],
+                             [8, 12],
+                             [8, 13],
+                             [8, 14],
+                             [8, 15],
+                             [8, 16],
+                             [8, 17],
+                             [9, 10],
+                             [9, 11],
+                             [9, 12],
+                             [9, 13],
+                             [9, 14],
+                             [9, 15],
+                             [9, 16],
+                             [9, 17],
+                             [10, 11],
+                             [10, 12],
+                             [10, 13],
+                             [10, 14],
+                             [10, 15],
+                             [10, 16],
+                             [10, 17],
+                             [11, 12],
+                             [11, 13],
+                             [11, 14],
+                             [11, 15],
+                             [11, 16],
+                             [11, 17],
+                             [12, 13],
+                             [12, 14],
+                             [12, 15],
+                             [12, 16],
+                             [12, 17],
+                             [13, 14],
+                             [13, 15],
+                             [13, 16],
+                             [13, 17],
+                             [14, 15],
+                             [14, 16],
+                             [14, 17],
+                             [15, 16],
+                             [15, 17],
+                             [16, 17]],
+ 'partaffinityfield_predict': True,
+ 'pos_dist_thresh': 17,
+ 'pre_resize': [],
+ 'project_path': 'C:\\Users\\cw266\\Videos\\ml_comparison_4-Charlotte-2022-03-11',
+ 'regularize': False,
+ 'rotation': 25,
+ 'rotratio': 0.4,
+ 'save_iters': 10000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'sharpen': False,
+ 'sharpenratio': 0.3,
+ 'shuffle': True,
+ 'snapshot_prefix': 'C:\\Users\\cw266\\Videos\\ml_comparison_4-Charlotte-2022-03-11\\dlc-models\\iteration-0\\ml_comparison_4Mar11-trainset95shuffle1\\train\\snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2022-03-11 20:08:55 iteration: 1000 loss: 0.0188 scmap loss: 0.0166 locref loss: 0.0004 limb loss: 0.0017 lr: 0.0001
+2022-03-11 20:16:34 iteration: 2000 loss: 0.0112 scmap loss: 0.0108 locref loss: 0.0001 limb loss: 0.0003 lr: 0.0001
+2022-03-11 20:24:10 iteration: 3000 loss: 0.0095 scmap loss: 0.0091 locref loss: 0.0001 limb loss: 0.0003 lr: 0.0001
+2022-03-11 20:31:46 iteration: 4000 loss: 0.0084 scmap loss: 0.0081 locref loss: 0.0001 limb loss: 0.0003 lr: 0.0001
+2022-03-11 20:39:13 iteration: 5000 loss: 0.0074 scmap loss: 0.0070 locref loss: 0.0001 limb loss: 0.0003 lr: 0.0001
+2022-03-11 20:46:52 iteration: 6000 loss: 0.0066 scmap loss: 0.0063 locref loss: 0.0001 limb loss: 0.0002 lr: 0.0001
+2022-03-11 20:54:30 iteration: 7000 loss: 0.0060 scmap loss: 0.0057 locref loss: 0.0001 limb loss: 0.0002 lr: 0.0001
+2022-03-11 21:02:11 iteration: 8000 loss: 0.0052 scmap loss: 0.0050 locref loss: 0.0000 limb loss: 0.0002 lr: 5e-05
+2022-03-11 21:09:52 iteration: 9000 loss: 0.0047 scmap loss: 0.0045 locref loss: 0.0000 limb loss: 0.0002 lr: 5e-05
+2022-03-11 21:17:28 iteration: 10000 loss: 0.0045 scmap loss: 0.0042 locref loss: 0.0000 limb loss: 0.0002 lr: 5e-05
+2022-03-11 21:24:38 iteration: 11000 loss: 0.0043 scmap loss: 0.0040 locref loss: 0.0000 limb loss: 0.0002 lr: 5e-05
+2022-03-11 21:31:52 iteration: 12000 loss: 0.0040 scmap loss: 0.0038 locref loss: 0.0000 limb loss: 0.0002 lr: 5e-05
+2022-03-11 21:39:10 iteration: 13000 loss: 0.0037 scmap loss: 0.0035 locref loss: 0.0000 limb loss: 0.0002 lr: 1e-05
+2022-03-11 21:46:24 iteration: 14000 loss: 0.0035 scmap loss: 0.0033 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-11 21:53:38 iteration: 15000 loss: 0.0035 scmap loss: 0.0033 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-11 22:00:52 iteration: 16000 loss: 0.0033 scmap loss: 0.0031 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-11 22:08:04 iteration: 17000 loss: 0.0033 scmap loss: 0.0032 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-11 22:15:13 iteration: 18000 loss: 0.0032 scmap loss: 0.0030 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-11 22:22:24 iteration: 19000 loss: 0.0033 scmap loss: 0.0031 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-11 22:29:37 iteration: 20000 loss: 0.0032 scmap loss: 0.0030 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-11 22:36:51 iteration: 21000 loss: 0.0031 scmap loss: 0.0030 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-11 22:44:05 iteration: 22000 loss: 0.0031 scmap loss: 0.0029 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-11 22:51:21 iteration: 23000 loss: 0.0031 scmap loss: 0.0029 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-11 22:58:43 iteration: 24000 loss: 0.0031 scmap loss: 0.0029 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-11 23:05:55 iteration: 25000 loss: 0.0030 scmap loss: 0.0028 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-11 23:13:08 iteration: 26000 loss: 0.0030 scmap loss: 0.0028 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-11 23:20:20 iteration: 27000 loss: 0.0030 scmap loss: 0.0028 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-11 23:27:29 iteration: 28000 loss: 0.0029 scmap loss: 0.0027 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-11 23:34:38 iteration: 29000 loss: 0.0029 scmap loss: 0.0027 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-11 23:41:51 iteration: 30000 loss: 0.0029 scmap loss: 0.0027 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-11 23:49:04 iteration: 31000 loss: 0.0029 scmap loss: 0.0027 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-11 23:56:09 iteration: 32000 loss: 0.0028 scmap loss: 0.0026 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 00:04:15 iteration: 33000 loss: 0.0028 scmap loss: 0.0026 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 00:12:29 iteration: 34000 loss: 0.0029 scmap loss: 0.0027 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 00:20:54 iteration: 35000 loss: 0.0028 scmap loss: 0.0026 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 00:29:22 iteration: 36000 loss: 0.0027 scmap loss: 0.0026 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 00:37:53 iteration: 37000 loss: 0.0027 scmap loss: 0.0026 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 00:46:21 iteration: 38000 loss: 0.0027 scmap loss: 0.0025 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 00:54:46 iteration: 39000 loss: 0.0027 scmap loss: 0.0025 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 01:01:59 iteration: 40000 loss: 0.0027 scmap loss: 0.0025 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 01:09:11 iteration: 41000 loss: 0.0027 scmap loss: 0.0025 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 01:16:23 iteration: 42000 loss: 0.0027 scmap loss: 0.0025 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 01:23:40 iteration: 43000 loss: 0.0026 scmap loss: 0.0025 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 01:30:53 iteration: 44000 loss: 0.0026 scmap loss: 0.0024 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 01:38:07 iteration: 45000 loss: 0.0026 scmap loss: 0.0025 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 01:45:18 iteration: 46000 loss: 0.0025 scmap loss: 0.0024 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 01:52:29 iteration: 47000 loss: 0.0025 scmap loss: 0.0024 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 01:59:45 iteration: 48000 loss: 0.0025 scmap loss: 0.0024 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 02:07:01 iteration: 49000 loss: 0.0025 scmap loss: 0.0024 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 02:14:12 iteration: 50000 loss: 0.0025 scmap loss: 0.0024 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 02:21:24 iteration: 51000 loss: 0.0025 scmap loss: 0.0023 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 02:28:33 iteration: 52000 loss: 0.0025 scmap loss: 0.0023 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 02:35:45 iteration: 53000 loss: 0.0025 scmap loss: 0.0023 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 02:42:56 iteration: 54000 loss: 0.0024 scmap loss: 0.0023 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 02:50:06 iteration: 55000 loss: 0.0024 scmap loss: 0.0023 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 02:57:22 iteration: 56000 loss: 0.0024 scmap loss: 0.0023 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 03:04:35 iteration: 57000 loss: 0.0024 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 03:11:43 iteration: 58000 loss: 0.0024 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 03:18:58 iteration: 59000 loss: 0.0024 scmap loss: 0.0023 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 03:26:10 iteration: 60000 loss: 0.0024 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 03:33:28 iteration: 61000 loss: 0.0024 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 03:40:42 iteration: 62000 loss: 0.0023 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 03:47:51 iteration: 63000 loss: 0.0023 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 03:55:05 iteration: 64000 loss: 0.0023 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 04:02:18 iteration: 65000 loss: 0.0023 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 04:09:41 iteration: 66000 loss: 0.0023 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 04:16:55 iteration: 67000 loss: 0.0023 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 04:24:00 iteration: 68000 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 04:31:06 iteration: 69000 loss: 0.0023 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 04:38:20 iteration: 70000 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 04:45:39 iteration: 71000 loss: 0.0024 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 04:52:55 iteration: 72000 loss: 0.0023 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 05:00:06 iteration: 73000 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 05:07:18 iteration: 74000 loss: 0.0022 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 05:14:25 iteration: 75000 loss: 0.0023 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 05:21:34 iteration: 76000 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 05:28:44 iteration: 77000 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 05:35:51 iteration: 78000 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 05:43:03 iteration: 79000 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 05:50:12 iteration: 80000 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 05:57:22 iteration: 81000 loss: 0.0022 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 06:04:25 iteration: 82000 loss: 0.0022 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 06:11:40 iteration: 83000 loss: 0.0022 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 06:18:51 iteration: 84000 loss: 0.0022 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 06:26:02 iteration: 85000 loss: 0.0021 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 06:33:14 iteration: 86000 loss: 0.0021 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 06:40:24 iteration: 87000 loss: 0.0021 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 06:47:36 iteration: 88000 loss: 0.0021 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 06:54:52 iteration: 89000 loss: 0.0021 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 07:02:02 iteration: 90000 loss: 0.0021 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 07:09:07 iteration: 91000 loss: 0.0021 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 07:16:21 iteration: 92000 loss: 0.0021 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 07:23:30 iteration: 93000 loss: 0.0021 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 07:30:41 iteration: 94000 loss: 0.0021 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 07:37:50 iteration: 95000 loss: 0.0021 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 07:44:59 iteration: 96000 loss: 0.0021 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 07:52:12 iteration: 97000 loss: 0.0021 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 07:59:23 iteration: 98000 loss: 0.0021 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 08:06:38 iteration: 99000 loss: 0.0020 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 08:13:50 iteration: 100000 loss: 0.0020 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 08:20:59 iteration: 101000 loss: 0.0020 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 08:28:11 iteration: 102000 loss: 0.0020 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 08:35:18 iteration: 103000 loss: 0.0020 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 08:42:32 iteration: 104000 loss: 0.0020 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 08:49:42 iteration: 105000 loss: 0.0020 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 08:56:59 iteration: 106000 loss: 0.0020 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 09:04:15 iteration: 107000 loss: 0.0020 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 09:11:23 iteration: 108000 loss: 0.0020 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 09:18:33 iteration: 109000 loss: 0.0020 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 09:25:45 iteration: 110000 loss: 0.0020 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 09:32:55 iteration: 111000 loss: 0.0020 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 09:40:10 iteration: 112000 loss: 0.0020 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 09:47:24 iteration: 113000 loss: 0.0020 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 09:54:42 iteration: 114000 loss: 0.0020 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 10:01:52 iteration: 115000 loss: 0.0019 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 10:08:59 iteration: 116000 loss: 0.0019 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 10:16:07 iteration: 117000 loss: 0.0020 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 10:23:18 iteration: 118000 loss: 0.0020 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 10:30:29 iteration: 119000 loss: 0.0019 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 10:37:41 iteration: 120000 loss: 0.0020 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 10:44:58 iteration: 121000 loss: 0.0019 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 10:54:51 iteration: 122000 loss: 0.0019 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-03-12 11:39:14 Config:
+{'all_joints': [[0],
+                [1],
+                [2],
+                [3],
+                [4],
+                [5],
+                [6],
+                [7],
+                [8],
+                [9],
+                [10],
+                [11],
+                [12],
+                [13],
+                [14],
+                [15],
+                [16],
+                [17]],
+ 'all_joints_names': ['left_ear',
+                      'right_ear',
+                      'left_eye',
+                      'right_eye',
+                      'nose',
+                      'left_shoulder',
+                      'right_shoulder',
+                      'lower_neck',
+                      'left_elbow',
+                      'right_elbow',
+                      'left_wrist',
+                      'right_wrist',
+                      'left_hip',
+                      'right_hip',
+                      'left_knee',
+                      'right_knee',
+                      'left_ankle',
+                      'right_ankle'],
+ 'alpha_r': 0.02,
+ 'apply_prob': 0.5,
+ 'batch_size': 8,
+ 'clahe': True,
+ 'claheratio': 0.1,
+ 'crop_pad': 0,
+ 'crop_sampling': 'hybrid',
+ 'crop_size': [400, 400],
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_ml_comparison_4Mar11\\ml_comparison_4_Charlotte95shuffle1.pickle',
+ 'dataset_type': 'multi-animal-imgaug',
+ 'decay_steps': 30000,
+ 'deterministic': False,
+ 'display_iters': 500,
+ 'edge': False,
+ 'emboss': {'alpha': [0.0, 1.0], 'embossratio': 0.1, 'strength': [0.5, 1.5]},
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'histeq': True,
+ 'histeqratio': 0.1,
+ 'init_weights': 'C:\\Users\\cw266\\Videos\\ml_comparison_4-Charlotte-2022-03-11\\dlc-models\\iteration-0\\ml_comparison_4Mar11-trainset95shuffle1\\train\\snapshot-122000',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'lr_init': 0.0005,
+ 'max_input_size': 1500,
+ 'max_shift': 0.4,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_ml_comparison_4Mar11\\Documentation_data-ml_comparison_4_95shuffle1.pickle',
+ 'min_input_size': 64,
+ 'mirror': False,
+ 'multi_stage': True,
+ 'multi_step': [[0.0001, 7500], [5e-05, 12000], [1e-05, 200000]],
+ 'net_type': 'resnet_50',
+ 'num_idchannel': 0,
+ 'num_joints': 18,
+ 'num_limbs': 153,
+ 'optimizer': 'adam',
+ 'pafwidth': 20,
+ 'pairwise_huber_loss': False,
+ 'pairwise_loss_weight': 0.1,
+ 'pairwise_predict': False,
+ 'partaffinityfield_graph': [[0, 1],
+                             [0, 2],
+                             [0, 3],
+                             [0, 4],
+                             [0, 5],
+                             [0, 6],
+                             [0, 7],
+                             [0, 8],
+                             [0, 9],
+                             [0, 10],
+                             [0, 11],
+                             [0, 12],
+                             [0, 13],
+                             [0, 14],
+                             [0, 15],
+                             [0, 16],
+                             [0, 17],
+                             [1, 2],
+                             [1, 3],
+                             [1, 4],
+                             [1, 5],
+                             [1, 6],
+                             [1, 7],
+                             [1, 8],
+                             [1, 9],
+                             [1, 10],
+                             [1, 11],
+                             [1, 12],
+                             [1, 13],
+                             [1, 14],
+                             [1, 15],
+                             [1, 16],
+                             [1, 17],
+                             [2, 3],
+                             [2, 4],
+                             [2, 5],
+                             [2, 6],
+                             [2, 7],
+                             [2, 8],
+                             [2, 9],
+                             [2, 10],
+                             [2, 11],
+                             [2, 12],
+                             [2, 13],
+                             [2, 14],
+                             [2, 15],
+                             [2, 16],
+                             [2, 17],
+                             [3, 4],
+                             [3, 5],
+                             [3, 6],
+                             [3, 7],
+                             [3, 8],
+                             [3, 9],
+                             [3, 10],
+                             [3, 11],
+                             [3, 12],
+                             [3, 13],
+                             [3, 14],
+                             [3, 15],
+                             [3, 16],
+                             [3, 17],
+                             [4, 5],
+                             [4, 6],
+                             [4, 7],
+                             [4, 8],
+                             [4, 9],
+                             [4, 10],
+                             [4, 11],
+                             [4, 12],
+                             [4, 13],
+                             [4, 14],
+                             [4, 15],
+                             [4, 16],
+                             [4, 17],
+                             [5, 6],
+                             [5, 7],
+                             [5, 8],
+                             [5, 9],
+                             [5, 10],
+                             [5, 11],
+                             [5, 12],
+                             [5, 13],
+                             [5, 14],
+                             [5, 15],
+                             [5, 16],
+                             [5, 17],
+                             [6, 7],
+                             [6, 8],
+                             [6, 9],
+                             [6, 10],
+                             [6, 11],
+                             [6, 12],
+                             [6, 13],
+                             [6, 14],
+                             [6, 15],
+                             [6, 16],
+                             [6, 17],
+                             [7, 8],
+                             [7, 9],
+                             [7, 10],
+                             [7, 11],
+                             [7, 12],
+                             [7, 13],
+                             [7, 14],
+                             [7, 15],
+                             [7, 16],
+                             [7, 17],
+                             [8, 9],
+                             [8, 10],
+                             [8, 11],
+                             [8, 12],
+                             [8, 13],
+                             [8, 14],
+                             [8, 15],
+                             [8, 16],
+                             [8, 17],
+                             [9, 10],
+                             [9, 11],
+                             [9, 12],
+                             [9, 13],
+                             [9, 14],
+                             [9, 15],
+                             [9, 16],
+                             [9, 17],
+                             [10, 11],
+                             [10, 12],
+                             [10, 13],
+                             [10, 14],
+                             [10, 15],
+                             [10, 16],
+                             [10, 17],
+                             [11, 12],
+                             [11, 13],
+                             [11, 14],
+                             [11, 15],
+                             [11, 16],
+                             [11, 17],
+                             [12, 13],
+                             [12, 14],
+                             [12, 15],
+                             [12, 16],
+                             [12, 17],
+                             [13, 14],
+                             [13, 15],
+                             [13, 16],
+                             [13, 17],
+                             [14, 15],
+                             [14, 16],
+                             [14, 17],
+                             [15, 16],
+                             [15, 17],
+                             [16, 17]],
+ 'partaffinityfield_predict': True,
+ 'pos_dist_thresh': 17,
+ 'pre_resize': [],
+ 'project_path': 'C:\\Users\\cw266\\Videos\\ml_comparison_4-Charlotte-2022-03-11',
+ 'regularize': False,
+ 'rotation': 25,
+ 'rotratio': 0.4,
+ 'save_iters': 10000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'sharpen': False,
+ 'sharpenratio': 0.3,
+ 'shuffle': True,
+ 'snapshot_prefix': 'C:\\Users\\cw266\\Videos\\ml_comparison_4-Charlotte-2022-03-11\\dlc-models\\iteration-0\\ml_comparison_4Mar11-trainset95shuffle1\\train\\snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2022-03-12 11:46:45 iteration: 123000 loss: 0.0033 scmap loss: 0.0031 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 11:54:19 iteration: 124000 loss: 0.0033 scmap loss: 0.0031 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 12:01:48 iteration: 125000 loss: 0.0032 scmap loss: 0.0030 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 12:09:22 iteration: 126000 loss: 0.0032 scmap loss: 0.0030 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 12:16:50 iteration: 127000 loss: 0.0031 scmap loss: 0.0030 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 12:24:25 iteration: 128000 loss: 0.0032 scmap loss: 0.0031 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 12:32:03 iteration: 129000 loss: 0.0030 scmap loss: 0.0028 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 12:39:49 iteration: 130000 loss: 0.0030 scmap loss: 0.0029 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 12:47:20 iteration: 131000 loss: 0.0029 scmap loss: 0.0028 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 12:54:46 iteration: 132000 loss: 0.0030 scmap loss: 0.0028 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 13:02:25 iteration: 133000 loss: 0.0029 scmap loss: 0.0028 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 13:10:09 iteration: 134000 loss: 0.0029 scmap loss: 0.0028 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 13:17:46 iteration: 135000 loss: 0.0028 scmap loss: 0.0027 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 13:25:08 iteration: 136000 loss: 0.0028 scmap loss: 0.0026 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 13:32:36 iteration: 137000 loss: 0.0029 scmap loss: 0.0027 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 13:39:54 iteration: 138000 loss: 0.0028 scmap loss: 0.0026 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 13:47:29 iteration: 139000 loss: 0.0027 scmap loss: 0.0026 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 13:54:50 iteration: 140000 loss: 0.0027 scmap loss: 0.0025 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 14:02:09 iteration: 141000 loss: 0.0027 scmap loss: 0.0025 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 14:09:35 iteration: 142000 loss: 0.0027 scmap loss: 0.0025 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 14:16:55 iteration: 143000 loss: 0.0026 scmap loss: 0.0025 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 14:24:14 iteration: 144000 loss: 0.0026 scmap loss: 0.0025 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 14:31:36 iteration: 145000 loss: 0.0026 scmap loss: 0.0025 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 14:38:56 iteration: 146000 loss: 0.0026 scmap loss: 0.0024 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 14:46:17 iteration: 147000 loss: 0.0026 scmap loss: 0.0025 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 14:53:43 iteration: 148000 loss: 0.0026 scmap loss: 0.0024 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 15:01:04 iteration: 149000 loss: 0.0025 scmap loss: 0.0024 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 15:08:28 iteration: 150000 loss: 0.0025 scmap loss: 0.0024 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 15:15:47 iteration: 151000 loss: 0.0025 scmap loss: 0.0024 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 15:23:04 iteration: 152000 loss: 0.0025 scmap loss: 0.0023 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 15:30:22 iteration: 153000 loss: 0.0025 scmap loss: 0.0024 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 15:37:39 iteration: 154000 loss: 0.0025 scmap loss: 0.0023 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 15:45:04 iteration: 155000 loss: 0.0025 scmap loss: 0.0023 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 15:52:21 iteration: 156000 loss: 0.0024 scmap loss: 0.0023 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 15:59:42 iteration: 157000 loss: 0.0024 scmap loss: 0.0023 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 16:06:56 iteration: 158000 loss: 0.0024 scmap loss: 0.0023 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 16:14:17 iteration: 159000 loss: 0.0024 scmap loss: 0.0023 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 16:21:42 iteration: 160000 loss: 0.0024 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 16:29:09 iteration: 161000 loss: 0.0024 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 16:36:38 iteration: 162000 loss: 0.0024 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 16:44:08 iteration: 163000 loss: 0.0023 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 16:51:36 iteration: 164000 loss: 0.0023 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 16:59:09 iteration: 165000 loss: 0.0024 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 17:06:44 iteration: 166000 loss: 0.0024 scmap loss: 0.0023 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 17:14:20 iteration: 167000 loss: 0.0023 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 17:21:54 iteration: 168000 loss: 0.0023 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 17:29:23 iteration: 169000 loss: 0.0023 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 17:36:52 iteration: 170000 loss: 0.0023 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 17:44:26 iteration: 171000 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 17:51:58 iteration: 172000 loss: 0.0023 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 17:59:32 iteration: 173000 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 18:06:59 iteration: 174000 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 18:14:32 iteration: 175000 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 18:22:09 iteration: 176000 loss: 0.0023 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 18:29:46 iteration: 177000 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 18:37:26 iteration: 178000 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 18:45:21 iteration: 179000 loss: 0.0023 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 18:53:04 iteration: 180000 loss: 0.0023 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 19:00:55 iteration: 181000 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 19:08:47 iteration: 182000 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 19:16:37 iteration: 183000 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 19:24:32 iteration: 184000 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 19:32:27 iteration: 185000 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 19:39:58 iteration: 186000 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 19:47:30 iteration: 187000 loss: 0.0022 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 19:55:09 iteration: 188000 loss: 0.0021 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 20:03:17 iteration: 189000 loss: 0.0022 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 20:10:44 iteration: 190000 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 20:18:03 iteration: 191000 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 20:25:30 iteration: 192000 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 20:33:15 iteration: 193000 loss: 0.0021 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 20:40:53 iteration: 194000 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 20:48:31 iteration: 195000 loss: 0.0021 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 20:56:02 iteration: 196000 loss: 0.0022 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 21:03:37 iteration: 197000 loss: 0.0022 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 21:11:10 iteration: 198000 loss: 0.0021 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 21:18:45 iteration: 199000 loss: 0.0021 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 21:26:08 iteration: 200000 loss: 0.0021 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2022-03-12 21:28:10 Config:
+{'all_joints': [[0],
+                [1],
+                [2],
+                [3],
+                [4],
+                [5],
+                [6],
+                [7],
+                [8],
+                [9],
+                [10],
+                [11],
+                [12],
+                [13],
+                [14],
+                [15],
+                [16],
+                [17]],
+ 'all_joints_names': ['left_ear',
+                      'right_ear',
+                      'left_eye',
+                      'right_eye',
+                      'nose',
+                      'left_shoulder',
+                      'right_shoulder',
+                      'lower_neck',
+                      'left_elbow',
+                      'right_elbow',
+                      'left_wrist',
+                      'right_wrist',
+                      'left_hip',
+                      'right_hip',
+                      'left_knee',
+                      'right_knee',
+                      'left_ankle',
+                      'right_ankle'],
+ 'batch_size': 1,
+ 'crop_pad': 0,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_ml_comparison_4Mar11\\ml_comparison_4_Charlotte95shuffle1.pickle',
+ 'dataset_type': 'multi-animal-imgaug',
+ 'deterministic': False,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'C:\\Users\\cw266\\Anaconda3\\envs\\DEEPLABCUT4\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 1.0,
+ 'locref_smooth': False,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'minconfidence': 0.01,
+ 'mirror': False,
+ 'multi_stage': True,
+ 'net_type': 'resnet_50',
+ 'nmsradius': 5.0,
+ 'num_idchannel': 0,
+ 'num_joints': 18,
+ 'num_limbs': 153,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': True,
+ 'pairwise_predict': False,
+ 'partaffinityfield_graph': [[0, 1],
+                             [0, 2],
+                             [0, 3],
+                             [0, 4],
+                             [0, 5],
+                             [0, 6],
+                             [0, 7],
+                             [0, 8],
+                             [0, 9],
+                             [0, 10],
+                             [0, 11],
+                             [0, 12],
+                             [0, 13],
+                             [0, 14],
+                             [0, 15],
+                             [0, 16],
+                             [0, 17],
+                             [1, 2],
+                             [1, 3],
+                             [1, 4],
+                             [1, 5],
+                             [1, 6],
+                             [1, 7],
+                             [1, 8],
+                             [1, 9],
+                             [1, 10],
+                             [1, 11],
+                             [1, 12],
+                             [1, 13],
+                             [1, 14],
+                             [1, 15],
+                             [1, 16],
+                             [1, 17],
+                             [2, 3],
+                             [2, 4],
+                             [2, 5],
+                             [2, 6],
+                             [2, 7],
+                             [2, 8],
+                             [2, 9],
+                             [2, 10],
+                             [2, 11],
+                             [2, 12],
+                             [2, 13],
+                             [2, 14],
+                             [2, 15],
+                             [2, 16],
+                             [2, 17],
+                             [3, 4],
+                             [3, 5],
+                             [3, 6],
+                             [3, 7],
+                             [3, 8],
+                             [3, 9],
+                             [3, 10],
+                             [3, 11],
+                             [3, 12],
+                             [3, 13],
+                             [3, 14],
+                             [3, 15],
+                             [3, 16],
+                             [3, 17],
+                             [4, 5],
+                             [4, 6],
+                             [4, 7],
+                             [4, 8],
+                             [4, 9],
+                             [4, 10],
+                             [4, 11],
+                             [4, 12],
+                             [4, 13],
+                             [4, 14],
+                             [4, 15],
+                             [4, 16],
+                             [4, 17],
+                             [5, 6],
+                             [5, 7],
+                             [5, 8],
+                             [5, 9],
+                             [5, 10],
+                             [5, 11],
+                             [5, 12],
+                             [5, 13],
+                             [5, 14],
+                             [5, 15],
+                             [5, 16],
+                             [5, 17],
+                             [6, 7],
+                             [6, 8],
+                             [6, 9],
+                             [6, 10],
+                             [6, 11],
+                             [6, 12],
+                             [6, 13],
+                             [6, 14],
+                             [6, 15],
+                             [6, 16],
+                             [6, 17],
+                             [7, 8],
+                             [7, 9],
+                             [7, 10],
+                             [7, 11],
+                             [7, 12],
+                             [7, 13],
+                             [7, 14],
+                             [7, 15],
+                             [7, 16],
+                             [7, 17],
+                             [8, 9],
+                             [8, 10],
+                             [8, 11],
+                             [8, 12],
+                             [8, 13],
+                             [8, 14],
+                             [8, 15],
+                             [8, 16],
+                             [8, 17],
+                             [9, 10],
+                             [9, 11],
+                             [9, 12],
+                             [9, 13],
+                             [9, 14],
+                             [9, 15],
+                             [9, 16],
+                             [9, 17],
+                             [10, 11],
+                             [10, 12],
+                             [10, 13],
+                             [10, 14],
+                             [10, 15],
+                             [10, 16],
+                             [10, 17],
+                             [11, 12],
+                             [11, 13],
+                             [11, 14],
+                             [11, 15],
+                             [11, 16],
+                             [11, 17],
+                             [12, 13],
+                             [12, 14],
+                             [12, 15],
+                             [12, 16],
+                             [12, 17],
+                             [13, 14],
+                             [13, 15],
+                             [13, 16],
+                             [13, 17],
+                             [14, 15],
+                             [14, 16],
+                             [14, 17],
+                             [15, 16],
+                             [15, 17],
+                             [16, 17]],
+ 'partaffinityfield_predict': True,
+ 'regularize': False,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'sigma': 1,
+ 'snapshot_prefix': 'C:\\Users\\cw266\\Videos\\ml_comparison_4-Charlotte-2022-03-11\\dlc-models\\iteration-0\\ml_comparison_4Mar11-trainset95shuffle1\\test\\snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
