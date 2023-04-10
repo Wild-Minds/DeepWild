@@ -1,6 +1,12 @@
 # DeepWild
 DeepWild contains all our code, protocols, and data on our DeepLabCut trained full body wild ape models
 
+
+
+https://user-images.githubusercontent.com/68918736/230900060-ca69626e-ed0b-4496-9866-a4947af1c7d0.mp4
+
+
+
 ## What is DeepWild?
 DeepWild is a machine learning model trained to track the movement of great apes in video data, created using DeepLabCut
 The model tracks 18 key points along an apes body. It can track multiple individuals and has been trained to work with wild data.
