@@ -7,7 +7,7 @@ Increased no. individuals to 7 to accomadate Bossou videos
 
 Training set:
 Total videos: 110
-Total marked frames: TBC- some videos 20 marked frames otghers 10
+Total marked frames: 2150
 Total no. markers: 2 (Charlotte & Viola)
 Total no. populations: 5
 Species: 2 (chimps and bonobos) 
