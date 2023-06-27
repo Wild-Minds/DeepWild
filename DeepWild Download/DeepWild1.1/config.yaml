@@ -1,0 +1,512 @@
+    # Project definitions (do not edit)
+Task: deepwild2
+scorer: Charlotte
+date: May24
+multianimalproject: true
+identity: false
+
+    # Project path (change when moving around)
+project_path: C:/Users/cw266/Videos/deepwild2-Charlotte-2023-05-24
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  C:\Users\cw266\Videos\deepwild\videos\Bossou1.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\Bossou10.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou11.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou12.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou13.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou14.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou15.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou16.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou17.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou18.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou19.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\Bossou2.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou20.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou21.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou22.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou23.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou24.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou25.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou26.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou27.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou28.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou29.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\Bossou3.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou30.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou31.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou32.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou33.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou34.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou35.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou36.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou37.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou38.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou39.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\Bossou4.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou40.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou41.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou42.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou43.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou44.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou45.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou46.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou47.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou48.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou49.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\Bossou5.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\bossou50.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\Bossou6.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\Bossou7.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\Bossou8.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\Bossou9.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\kalinzu1.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\kalinzu10downsampled.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\kalinzu11.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\kalinzu12.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\kalinzu13.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\kalinzu14.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\kalinzu15.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\kalinzu16.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\kalinzu17.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\kalinzu18.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\kalinzu19.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\kalinzu2.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\kalinzu20.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\kalinzu3.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\kalinzu4.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\kalinzu5.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\kalinzu6.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\kalinzu7.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\kalinzu8.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\kalinzu9.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb1.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb10.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb11.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb12.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb13.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb14.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb15.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb16.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb17.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb18.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb19.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb2.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb20.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb21.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb22.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb23.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb24.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb25.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb26.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb27.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb28.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb29.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb3.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb30.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb31.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb32.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb33.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb34.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb35.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb4.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb5.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb6.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb7.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb8.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\mb9.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\sonso1.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\sonso10.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\sonso11.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\sonso12.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\sonso13.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\sonso14.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\sonso15.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\sonso16.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\sonso17.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\sonso18.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\sonso19.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\sonso2.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\sonso20.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\sonso3.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\sonso31.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\sonso32.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\sonso33.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\sonso34.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\sonso35.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\sonso36.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\sonso37.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\sonso38.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\sonso39.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\sonso4.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\sonso40.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\sonso5.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\sonso6.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\sonso7.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\sonso8.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\sonso9.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\waibira1.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\waibira10.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\waibira15downsampled.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\waibira17downsampled.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\waibira18downsampled.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\waibira2.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\waibira3.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\waibira31.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\waibira32.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\waibira33.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\waibira34.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\waibira35.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\waibira36.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\waibira37.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\waibira38.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\waibira39.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\waibira4.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\waibira40.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\waibira41.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\waibira42.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\waibira43.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\waibira44.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\waibira45.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\waibira46.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\waibira47.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\waibira48.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\waibira49.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\cw266\Videos\deepwild\videos\waibira5.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\waibira50.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\cw266\Videos\deepwild\videos\waibira6.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\waibira7.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\waibira8.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\waibira9.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\wamba1.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\wamba10.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\wamba11.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\wamba12.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\Wamba13.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\wamba14.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\wamba15.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\wamba16.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\wamba17.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\wamba18.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\wamba19.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\wamba2.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\wamba3.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\wamba4.mp4:
+    crop: 0, 960, 0, 540
+  C:\Users\cw266\Videos\deepwild\videos\wamba5.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\wamba6.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\wamba7.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\wamba8.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\cw266\Videos\deepwild\videos\wamba9.mp4:
+    crop: 0, 1920, 0, 1080
+individuals:
+- individual1
+- individual2
+- individual3
+- individual4
+- individual5
+- individual6
+- individual7
+uniquebodyparts: []
+multianimalbodyparts:
+- left_ear
+- right_ear
+- left_eye
+- right_eye
+- nose
+- left_shoulder
+- right_shoulder
+- lower_neck
+- left_elbow
+- right_elbow
+- left_wrist
+- right_wrist
+- left_hip
+- right_hip
+- left_knee
+- right_knee
+- left_ankle
+- right_ankle
+bodyparts: MULTI!
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+start: 0
+stop: 1
+numframes2pick: 25
+
+    # Plotting configuration
+skeleton:
+- - right_shoulder
+  - left_hip
+- - right_eye
+  - nose
+- - nose
+  - right_shoulder
+- - left_hip
+  - right_hip
+- - left_shoulder
+  - lower_neck
+- - left_shoulder
+  - right_hip
+- - left_knee
+  - left_ankle
+- - left_ear
+  - left_eye
+- - right_elbow
+  - right_wrist
+- - right_ear
+  - right_eye
+- - right_knee
+  - right_ankle
+- - lower_neck
+  - right_hip
+- - nose
+  - left_shoulder
+- - left_shoulder
+  - right_shoulder
+- - left_shoulder
+  - left_hip
+- - left_ear
+  - right_ear
+- - left_ear
+  - lower_neck
+- - left_eye
+  - nose
+- - left_ear
+  - nose
+- - right_shoulder
+  - lower_neck
+- - right_shoulder
+  - right_hip
+- - lower_neck
+  - left_hip
+- - left_hip
+  - left_knee
+- - left_shoulder
+  - left_elbow
+- - left_elbow
+  - left_wrist
+- - right_ear
+  - nose
+- - left_eye
+  - right_eye
+- - right_ear
+  - lower_neck
+- - right_hip
+  - right_knee
+- - right_shoulder
+  - right_elbow
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 12
+alphavalue: 0.7
+colormap: rainbow
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+default_net_type: dlcrnet_ms5
+default_augmenter: multi-animal-imgaug
+default_track_method: ellipse
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
