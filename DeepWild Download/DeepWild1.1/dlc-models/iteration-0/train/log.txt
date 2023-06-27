@@ -1,0 +1,1240 @@
+2023-05-24 19:04:56 Config:
+{'all_joints': [[0],
+                [1],
+                [2],
+                [3],
+                [4],
+                [5],
+                [6],
+                [7],
+                [8],
+                [9],
+                [10],
+                [11],
+                [12],
+                [13],
+                [14],
+                [15],
+                [16],
+                [17]],
+ 'all_joints_names': ['left_ear',
+                      'right_ear',
+                      'left_eye',
+                      'right_eye',
+                      'nose',
+                      'left_shoulder',
+                      'right_shoulder',
+                      'lower_neck',
+                      'left_elbow',
+                      'right_elbow',
+                      'left_wrist',
+                      'right_wrist',
+                      'left_hip',
+                      'right_hip',
+                      'left_knee',
+                      'right_knee',
+                      'left_ankle',
+                      'right_ankle'],
+ 'alpha_r': 0.02,
+ 'apply_prob': 0.5,
+ 'batch_size': 8,
+ 'contrast': {'clahe': True,
+              'claheratio': 0.1,
+              'histeq': True,
+              'histeqratio': 0.1},
+ 'convolution': {'edge': False,
+                 'emboss': {'alpha': [0.0, 1.0], 'strength': [0.5, 1.5]},
+                 'embossratio': 0.1,
+                 'sharpen': False,
+                 'sharpenratio': 0.3},
+ 'crop_pad': 0,
+ 'crop_sampling': 'hybrid',
+ 'crop_size': [400, 400],
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_deepwild2May24\\deepwild2_Charlotte95shuffle1.pickle',
+ 'dataset_type': 'multi-animal-imgaug',
+ 'decay_steps': 30000,
+ 'deterministic': False,
+ 'display_iters': 500,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'C:\\Users\\cw266\\.conda\\envs\\DLC\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'lr_init': 0.0005,
+ 'max_input_size': 1500,
+ 'max_shift': 0.4,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_deepwild2May24\\Documentation_data-deepwild2_95shuffle1.pickle',
+ 'min_input_size': 64,
+ 'mirror': False,
+ 'multi_stage': False,
+ 'multi_step': [[0.0001, 7500], [5e-05, 12000], [1e-05, 200000]],
+ 'net_type': 'resnet_50',
+ 'num_idchannel': 0,
+ 'num_joints': 18,
+ 'num_limbs': 54,
+ 'optimizer': 'adam',
+ 'pafwidth': 20,
+ 'pairwise_huber_loss': False,
+ 'pairwise_loss_weight': 0.1,
+ 'pairwise_predict': False,
+ 'partaffinityfield_graph': [[1, 11],
+                             [1, 9],
+                             [1, 4],
+                             [1, 13],
+                             [7, 11],
+                             [8, 11],
+                             [9, 11],
+                             [2, 11],
+                             [8, 10],
+                             [8, 16],
+                             [8, 9],
+                             [10, 15],
+                             [7, 10],
+                             [10, 12],
+                             [7, 13],
+                             [0, 7],
+                             [4, 7],
+                             [7, 9],
+                             [7, 16],
+                             [7, 12],
+                             [5, 16],
+                             [5, 12],
+                             [5, 9],
+                             [5, 14],
+                             [5, 6],
+                             [5, 15],
+                             [9, 16],
+                             [3, 16],
+                             [3, 13],
+                             [0, 3],
+                             [3, 9],
+                             [3, 15],
+                             [3, 17],
+                             [3, 6],
+                             [3, 12],
+                             [2, 3],
+                             [0, 13],
+                             [2, 13],
+                             [4, 9],
+                             [4, 15],
+                             [2, 4],
+                             [4, 14],
+                             [6, 9],
+                             [9, 15],
+                             [2, 9],
+                             [9, 17],
+                             [12, 15],
+                             [6, 14],
+                             [14, 15],
+                             [14, 17],
+                             [0, 2],
+                             [0, 17],
+                             [2, 17],
+                             [6, 17]],
+ 'partaffinityfield_predict': True,
+ 'pos_dist_thresh': 17,
+ 'pre_resize': [],
+ 'project_path': 'C:/Users/cw266/Videos/deepwild2-Charlotte-2023-05-24',
+ 'regularize': False,
+ 'rotation': 25,
+ 'rotratio': 0.4,
+ 'save_iters': 10000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': 'C:\\Users\\cw266\\Videos\\deepwild2-Charlotte-2023-05-24\\dlc-models\\iteration-0\\deepwild2May24-trainset95shuffle1\\train\\snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2023-05-24 19:10:03 iteration: 500 loss: 0.0159 scmap loss: 0.0124 locref loss: 0.0007 limb loss: 0.0028 lr: 0.0001
+2023-05-24 19:14:46 iteration: 1000 loss: 0.0053 scmap loss: 0.0050 locref loss: 0.0001 limb loss: 0.0002 lr: 0.0001
+2023-05-24 19:19:10 iteration: 1500 loss: 0.0048 scmap loss: 0.0046 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2023-05-24 19:23:44 iteration: 2000 loss: 0.0048 scmap loss: 0.0046 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2023-05-24 19:28:08 iteration: 2500 loss: 0.0042 scmap loss: 0.0040 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2023-05-24 19:32:29 iteration: 3000 loss: 0.0040 scmap loss: 0.0038 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2023-05-24 19:36:55 iteration: 3500 loss: 0.0042 scmap loss: 0.0041 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2023-05-24 19:41:45 iteration: 4000 loss: 0.0037 scmap loss: 0.0035 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2023-05-24 19:46:17 iteration: 4500 loss: 0.0037 scmap loss: 0.0036 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2023-05-24 19:51:08 iteration: 5000 loss: 0.0039 scmap loss: 0.0038 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2023-05-24 19:55:37 iteration: 5500 loss: 0.0035 scmap loss: 0.0033 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2023-05-24 20:00:16 iteration: 6000 loss: 0.0032 scmap loss: 0.0031 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2023-05-24 20:05:11 iteration: 6500 loss: 0.0033 scmap loss: 0.0032 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2023-05-24 20:10:06 iteration: 7000 loss: 0.0031 scmap loss: 0.0030 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2023-05-24 20:15:04 iteration: 7500 loss: 0.0032 scmap loss: 0.0031 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+2023-05-24 20:19:52 iteration: 8000 loss: 0.0030 scmap loss: 0.0029 locref loss: 0.0000 limb loss: 0.0001 lr: 5e-05
+2023-05-24 20:24:38 iteration: 8500 loss: 0.0028 scmap loss: 0.0027 locref loss: 0.0000 limb loss: 0.0001 lr: 5e-05
+2023-05-24 20:29:28 iteration: 9000 loss: 0.0028 scmap loss: 0.0027 locref loss: 0.0000 limb loss: 0.0001 lr: 5e-05
+2023-05-24 20:34:21 iteration: 9500 loss: 0.0028 scmap loss: 0.0027 locref loss: 0.0000 limb loss: 0.0001 lr: 5e-05
+2023-05-24 20:39:13 iteration: 10000 loss: 0.0027 scmap loss: 0.0026 locref loss: 0.0000 limb loss: 0.0001 lr: 5e-05
+2023-05-24 20:44:09 iteration: 10500 loss: 0.0026 scmap loss: 0.0025 locref loss: 0.0000 limb loss: 0.0001 lr: 5e-05
+2023-05-24 20:48:49 iteration: 11000 loss: 0.0027 scmap loss: 0.0026 locref loss: 0.0000 limb loss: 0.0001 lr: 5e-05
+2023-05-24 20:53:44 iteration: 11500 loss: 0.0027 scmap loss: 0.0026 locref loss: 0.0000 limb loss: 0.0001 lr: 5e-05
+2023-05-24 20:58:39 iteration: 12000 loss: 0.0026 scmap loss: 0.0025 locref loss: 0.0000 limb loss: 0.0001 lr: 5e-05
+2023-05-24 21:02:58 iteration: 12500 loss: 0.0024 scmap loss: 0.0023 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 21:07:13 iteration: 13000 loss: 0.0021 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 21:11:31 iteration: 13500 loss: 0.0024 scmap loss: 0.0024 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 21:15:49 iteration: 14000 loss: 0.0025 scmap loss: 0.0024 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 21:20:06 iteration: 14500 loss: 0.0023 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 21:24:22 iteration: 15000 loss: 0.0023 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 21:28:37 iteration: 15500 loss: 0.0024 scmap loss: 0.0023 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 21:32:55 iteration: 16000 loss: 0.0023 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 21:37:23 iteration: 16500 loss: 0.0021 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 21:41:52 iteration: 17000 loss: 0.0023 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 21:46:20 iteration: 17500 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 21:50:40 iteration: 18000 loss: 0.0023 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 21:55:00 iteration: 18500 loss: 0.0021 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 21:59:16 iteration: 19000 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 22:03:32 iteration: 19500 loss: 0.0023 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 22:07:55 iteration: 20000 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 22:12:12 iteration: 20500 loss: 0.0022 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 22:16:26 iteration: 21000 loss: 0.0021 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 22:20:38 iteration: 21500 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 22:24:45 iteration: 22000 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 22:28:48 iteration: 22500 loss: 0.0022 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 22:32:58 iteration: 23000 loss: 0.0021 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 22:37:03 iteration: 23500 loss: 0.0020 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-24 22:41:08 iteration: 24000 loss: 0.0021 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 22:45:11 iteration: 24500 loss: 0.0021 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 22:49:15 iteration: 25000 loss: 0.0020 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 22:53:20 iteration: 25500 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 22:57:24 iteration: 26000 loss: 0.0020 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 23:01:32 iteration: 26500 loss: 0.0021 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 23:05:32 iteration: 27000 loss: 0.0021 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 23:09:39 iteration: 27500 loss: 0.0020 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-24 23:13:47 iteration: 28000 loss: 0.0021 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 23:17:51 iteration: 28500 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 23:21:53 iteration: 29000 loss: 0.0020 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 23:25:59 iteration: 29500 loss: 0.0021 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-24 23:30:07 iteration: 30000 loss: 0.0019 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-24 23:34:13 iteration: 30500 loss: 0.0019 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-24 23:38:20 iteration: 31000 loss: 0.0019 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-24 23:42:27 iteration: 31500 loss: 0.0020 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2023-05-24 23:46:35 iteration: 32000 loss: 0.0020 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-24 23:50:39 iteration: 32500 loss: 0.0019 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-24 23:54:47 iteration: 33000 loss: 0.0019 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-24 23:58:52 iteration: 33500 loss: 0.0019 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 00:03:02 iteration: 34000 loss: 0.0019 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 00:07:10 iteration: 34500 loss: 0.0019 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 00:11:20 iteration: 35000 loss: 0.0019 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 00:15:27 iteration: 35500 loss: 0.0020 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 00:19:33 iteration: 36000 loss: 0.0019 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 00:23:40 iteration: 36500 loss: 0.0020 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 00:27:44 iteration: 37000 loss: 0.0019 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 00:31:47 iteration: 37500 loss: 0.0020 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 00:35:53 iteration: 38000 loss: 0.0017 scmap loss: 0.0017 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 00:39:56 iteration: 38500 loss: 0.0019 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 00:44:05 iteration: 39000 loss: 0.0019 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 00:48:15 iteration: 39500 loss: 0.0018 scmap loss: 0.0017 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 00:52:22 iteration: 40000 loss: 0.0019 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 00:56:25 iteration: 40500 loss: 0.0020 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 01:00:29 iteration: 41000 loss: 0.0019 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 01:04:33 iteration: 41500 loss: 0.0019 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 01:08:42 iteration: 42000 loss: 0.0019 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 01:12:46 iteration: 42500 loss: 0.0018 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 01:16:51 iteration: 43000 loss: 0.0019 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 01:20:53 iteration: 43500 loss: 0.0018 scmap loss: 0.0017 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 01:24:59 iteration: 44000 loss: 0.0018 scmap loss: 0.0017 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 01:29:05 iteration: 44500 loss: 0.0017 scmap loss: 0.0017 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 01:33:08 iteration: 45000 loss: 0.0018 scmap loss: 0.0017 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 01:37:13 iteration: 45500 loss: 0.0018 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 01:41:22 iteration: 46000 loss: 0.0018 scmap loss: 0.0017 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 01:45:31 iteration: 46500 loss: 0.0018 scmap loss: 0.0017 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 01:49:37 iteration: 47000 loss: 0.0017 scmap loss: 0.0017 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 01:53:40 iteration: 47500 loss: 0.0018 scmap loss: 0.0017 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 01:57:46 iteration: 48000 loss: 0.0017 scmap loss: 0.0016 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 02:01:50 iteration: 48500 loss: 0.0018 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 02:05:53 iteration: 49000 loss: 0.0017 scmap loss: 0.0017 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 02:10:00 iteration: 49500 loss: 0.0018 scmap loss: 0.0017 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 02:14:05 iteration: 50000 loss: 0.0018 scmap loss: 0.0017 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 02:18:12 iteration: 50500 loss: 0.0017 scmap loss: 0.0017 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 02:22:16 iteration: 51000 loss: 0.0017 scmap loss: 0.0017 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 02:26:19 iteration: 51500 loss: 0.0017 scmap loss: 0.0016 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 02:30:25 iteration: 52000 loss: 0.0019 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 02:34:29 iteration: 52500 loss: 0.0017 scmap loss: 0.0017 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 02:38:31 iteration: 53000 loss: 0.0018 scmap loss: 0.0017 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 02:42:36 iteration: 53500 loss: 0.0017 scmap loss: 0.0016 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 02:46:42 iteration: 54000 loss: 0.0017 scmap loss: 0.0017 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 02:50:48 iteration: 54500 loss: 0.0018 scmap loss: 0.0017 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 02:54:53 iteration: 55000 loss: 0.0017 scmap loss: 0.0016 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 02:58:55 iteration: 55500 loss: 0.0017 scmap loss: 0.0016 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 03:03:01 iteration: 56000 loss: 0.0018 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 03:07:08 iteration: 56500 loss: 0.0016 scmap loss: 0.0016 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 03:11:23 iteration: 57000 loss: 0.0017 scmap loss: 0.0016 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 03:15:28 iteration: 57500 loss: 0.0018 scmap loss: 0.0017 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 03:19:31 iteration: 58000 loss: 0.0017 scmap loss: 0.0017 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 03:23:35 iteration: 58500 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 03:27:42 iteration: 59000 loss: 0.0016 scmap loss: 0.0016 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 03:31:50 iteration: 59500 loss: 0.0017 scmap loss: 0.0016 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 03:35:56 iteration: 60000 loss: 0.0018 scmap loss: 0.0017 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 03:40:01 iteration: 60500 loss: 0.0017 scmap loss: 0.0017 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 03:44:08 iteration: 61000 loss: 0.0017 scmap loss: 0.0016 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 03:48:15 iteration: 61500 loss: 0.0017 scmap loss: 0.0016 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 03:52:29 iteration: 62000 loss: 0.0018 scmap loss: 0.0017 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 03:56:35 iteration: 62500 loss: 0.0017 scmap loss: 0.0016 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 04:00:39 iteration: 63000 loss: 0.0017 scmap loss: 0.0016 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 04:04:43 iteration: 63500 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 04:08:49 iteration: 64000 loss: 0.0016 scmap loss: 0.0016 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 04:12:59 iteration: 64500 loss: 0.0017 scmap loss: 0.0016 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 04:17:06 iteration: 65000 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 04:21:14 iteration: 65500 loss: 0.0016 scmap loss: 0.0016 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 04:25:22 iteration: 66000 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 04:29:27 iteration: 66500 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 04:33:32 iteration: 67000 loss: 0.0016 scmap loss: 0.0016 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 04:37:37 iteration: 67500 loss: 0.0016 scmap loss: 0.0016 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 04:41:44 iteration: 68000 loss: 0.0017 scmap loss: 0.0016 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 04:45:50 iteration: 68500 loss: 0.0017 scmap loss: 0.0016 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 04:49:55 iteration: 69000 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 04:54:05 iteration: 69500 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 04:58:12 iteration: 70000 loss: 0.0017 scmap loss: 0.0017 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 05:02:19 iteration: 70500 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 05:06:25 iteration: 71000 loss: 0.0016 scmap loss: 0.0016 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 05:10:32 iteration: 71500 loss: 0.0016 scmap loss: 0.0016 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 05:14:40 iteration: 72000 loss: 0.0016 scmap loss: 0.0016 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 05:18:50 iteration: 72500 loss: 0.0015 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 05:22:56 iteration: 73000 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 05:27:04 iteration: 73500 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 05:31:07 iteration: 74000 loss: 0.0016 scmap loss: 0.0016 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 05:35:15 iteration: 74500 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 05:39:21 iteration: 75000 loss: 0.0015 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 05:43:26 iteration: 75500 loss: 0.0017 scmap loss: 0.0016 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 05:47:34 iteration: 76000 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 05:51:39 iteration: 76500 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 05:55:41 iteration: 77000 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 05:59:48 iteration: 77500 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 06:03:57 iteration: 78000 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 06:08:04 iteration: 78500 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 06:12:13 iteration: 79000 loss: 0.0015 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 06:16:20 iteration: 79500 loss: 0.0014 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 06:20:22 iteration: 80000 loss: 0.0016 scmap loss: 0.0016 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 06:24:31 iteration: 80500 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 06:28:33 iteration: 81000 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 06:32:43 iteration: 81500 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 06:36:46 iteration: 82000 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 06:40:50 iteration: 82500 loss: 0.0015 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 06:44:56 iteration: 83000 loss: 0.0015 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 06:49:03 iteration: 83500 loss: 0.0015 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 06:53:07 iteration: 84000 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 06:57:11 iteration: 84500 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 07:01:18 iteration: 85000 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 07:05:27 iteration: 85500 loss: 0.0015 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 07:09:31 iteration: 86000 loss: 0.0015 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 07:13:39 iteration: 86500 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 07:17:48 iteration: 87000 loss: 0.0015 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 07:21:52 iteration: 87500 loss: 0.0015 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 07:25:59 iteration: 88000 loss: 0.0014 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 07:30:05 iteration: 88500 loss: 0.0014 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 07:34:11 iteration: 89000 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 07:38:15 iteration: 89500 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 07:42:20 iteration: 90000 loss: 0.0014 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 07:46:27 iteration: 90500 loss: 0.0015 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 07:50:32 iteration: 91000 loss: 0.0014 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 07:54:39 iteration: 91500 loss: 0.0015 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 07:58:45 iteration: 92000 loss: 0.0014 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 08:02:51 iteration: 92500 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 08:06:59 iteration: 93000 loss: 0.0014 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 08:11:07 iteration: 93500 loss: 0.0015 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 08:15:12 iteration: 94000 loss: 0.0015 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 08:19:17 iteration: 94500 loss: 0.0015 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 08:23:25 iteration: 95000 loss: 0.0015 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 08:27:34 iteration: 95500 loss: 0.0015 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 08:31:39 iteration: 96000 loss: 0.0015 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 08:35:43 iteration: 96500 loss: 0.0015 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 08:39:48 iteration: 97000 loss: 0.0014 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 08:43:54 iteration: 97500 loss: 0.0014 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 08:48:02 iteration: 98000 loss: 0.0015 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 08:52:08 iteration: 98500 loss: 0.0014 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 08:56:16 iteration: 99000 loss: 0.0015 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 09:00:21 iteration: 99500 loss: 0.0015 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 09:04:26 iteration: 100000 loss: 0.0014 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 09:08:33 iteration: 100500 loss: 0.0014 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 09:12:40 iteration: 101000 loss: 0.0015 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 09:16:49 iteration: 101500 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 09:20:56 iteration: 102000 loss: 0.0014 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 09:25:05 iteration: 102500 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 09:29:12 iteration: 103000 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 09:33:17 iteration: 103500 loss: 0.0014 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 09:37:22 iteration: 104000 loss: 0.0015 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 09:41:25 iteration: 104500 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 09:45:43 iteration: 105000 loss: 0.0015 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 09:49:48 iteration: 105500 loss: 0.0014 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 09:53:57 iteration: 106000 loss: 0.0014 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 09:58:27 iteration: 106500 loss: 0.0014 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 10:03:02 iteration: 107000 loss: 0.0014 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 10:07:32 iteration: 107500 loss: 0.0015 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 10:12:06 iteration: 108000 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 10:16:39 iteration: 108500 loss: 0.0014 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 10:21:13 iteration: 109000 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 10:25:44 iteration: 109500 loss: 0.0014 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 10:30:14 iteration: 110000 loss: 0.0014 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 10:34:47 iteration: 110500 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 10:39:16 iteration: 111000 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 10:43:42 iteration: 111500 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 10:48:13 iteration: 112000 loss: 0.0014 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 10:52:39 iteration: 112500 loss: 0.0014 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 10:57:02 iteration: 113000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 11:01:15 iteration: 113500 loss: 0.0014 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 11:05:31 iteration: 114000 loss: 0.0014 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 11:09:47 iteration: 114500 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 11:14:02 iteration: 115000 loss: 0.0014 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 11:18:21 iteration: 115500 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 11:22:39 iteration: 116000 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 11:26:58 iteration: 116500 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 11:31:15 iteration: 117000 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 11:35:35 iteration: 117500 loss: 0.0014 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 11:39:50 iteration: 118000 loss: 0.0014 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 11:44:10 iteration: 118500 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 11:48:30 iteration: 119000 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 11:52:52 iteration: 119500 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 11:57:11 iteration: 120000 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 12:01:31 iteration: 120500 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 12:05:44 iteration: 121000 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 12:10:01 iteration: 121500 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 12:14:21 iteration: 122000 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 12:18:39 iteration: 122500 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 12:22:55 iteration: 123000 loss: 0.0015 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 12:27:14 iteration: 123500 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 12:31:31 iteration: 124000 loss: 0.0015 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 12:35:47 iteration: 124500 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 12:40:07 iteration: 125000 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 12:44:22 iteration: 125500 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 12:48:40 iteration: 126000 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 12:53:02 iteration: 126500 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 12:57:28 iteration: 127000 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 13:01:48 iteration: 127500 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 13:06:04 iteration: 128000 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 13:10:22 iteration: 128500 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 13:14:42 iteration: 129000 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 13:19:04 iteration: 129500 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 13:23:25 iteration: 130000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 13:27:46 iteration: 130500 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 13:32:06 iteration: 131000 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 13:36:21 iteration: 131500 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 13:40:45 iteration: 132000 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 13:44:57 iteration: 132500 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 13:49:11 iteration: 133000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 13:53:22 iteration: 133500 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 13:57:31 iteration: 134000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 14:01:43 iteration: 134500 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 14:05:57 iteration: 135000 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 14:10:10 iteration: 135500 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 14:14:31 iteration: 136000 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 14:18:48 iteration: 136500 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 14:23:05 iteration: 137000 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 14:27:20 iteration: 137500 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 14:31:36 iteration: 138000 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 14:35:54 iteration: 138500 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 14:40:11 iteration: 139000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 14:44:27 iteration: 139500 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 14:48:41 iteration: 140000 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 14:52:58 iteration: 140500 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 14:57:11 iteration: 141000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 15:02:02 iteration: 141500 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 15:07:37 iteration: 142000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 15:13:12 iteration: 142500 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 15:18:31 iteration: 143000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 15:23:41 iteration: 143500 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 15:28:40 iteration: 144000 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 15:33:43 iteration: 144500 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 15:38:47 iteration: 145000 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 15:43:55 iteration: 145500 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 15:48:39 iteration: 146000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 15:53:06 iteration: 146500 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 15:57:55 iteration: 147000 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 16:02:35 iteration: 147500 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 16:07:08 iteration: 148000 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 16:11:18 iteration: 148500 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 16:15:32 iteration: 149000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 16:19:43 iteration: 149500 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 16:23:54 iteration: 150000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 16:28:07 iteration: 150500 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 16:32:17 iteration: 151000 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 16:36:31 iteration: 151500 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 16:40:40 iteration: 152000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 16:44:54 iteration: 152500 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 16:49:02 iteration: 153000 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 16:53:12 iteration: 153500 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 16:57:27 iteration: 154000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 17:01:37 iteration: 154500 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 17:05:42 iteration: 155000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 17:09:50 iteration: 155500 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 17:13:59 iteration: 156000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 17:18:08 iteration: 156500 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 17:22:19 iteration: 157000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 17:26:28 iteration: 157500 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 17:30:37 iteration: 158000 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 17:34:45 iteration: 158500 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 17:38:52 iteration: 159000 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 17:43:00 iteration: 159500 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 17:47:06 iteration: 160000 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 17:51:15 iteration: 160500 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 17:55:19 iteration: 161000 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 17:59:24 iteration: 161500 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 18:03:26 iteration: 162000 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 18:07:32 iteration: 162500 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 18:11:36 iteration: 163000 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 18:15:44 iteration: 163500 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 18:19:55 iteration: 164000 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 18:24:03 iteration: 164500 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 18:28:08 iteration: 165000 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 18:32:10 iteration: 165500 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 18:36:16 iteration: 166000 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 18:40:19 iteration: 166500 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 18:44:20 iteration: 167000 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 18:48:28 iteration: 167500 loss: 0.0011 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 18:52:32 iteration: 168000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 18:56:37 iteration: 168500 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 19:00:43 iteration: 169000 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 19:04:52 iteration: 169500 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 19:08:59 iteration: 170000 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 19:13:08 iteration: 170500 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 19:17:17 iteration: 171000 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 19:21:26 iteration: 171500 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 19:25:36 iteration: 172000 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 19:29:42 iteration: 172500 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 19:33:52 iteration: 173000 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 19:38:01 iteration: 173500 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 19:42:07 iteration: 174000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 19:46:16 iteration: 174500 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 19:50:19 iteration: 175000 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 19:54:27 iteration: 175500 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 19:58:33 iteration: 176000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 20:02:41 iteration: 176500 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 20:06:48 iteration: 177000 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 20:10:55 iteration: 177500 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 20:15:08 iteration: 178000 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 20:19:21 iteration: 178500 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 20:23:29 iteration: 179000 loss: 0.0013 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 20:27:33 iteration: 179500 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 20:31:38 iteration: 180000 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 20:35:38 iteration: 180500 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 20:39:42 iteration: 181000 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 20:43:51 iteration: 181500 loss: 0.0011 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 20:47:57 iteration: 182000 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 20:52:04 iteration: 182500 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 20:56:10 iteration: 183000 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 21:00:18 iteration: 183500 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 21:04:26 iteration: 184000 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 21:08:33 iteration: 184500 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 21:12:42 iteration: 185000 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 21:16:48 iteration: 185500 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 21:20:53 iteration: 186000 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 21:24:58 iteration: 186500 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 21:29:04 iteration: 187000 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 21:33:11 iteration: 187500 loss: 0.0011 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 21:37:17 iteration: 188000 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 21:41:21 iteration: 188500 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 21:45:26 iteration: 189000 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 21:49:32 iteration: 189500 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 21:53:38 iteration: 190000 loss: 0.0011 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 21:57:41 iteration: 190500 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 22:01:45 iteration: 191000 loss: 0.0011 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 22:05:49 iteration: 191500 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 22:09:50 iteration: 192000 loss: 0.0011 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 22:13:55 iteration: 192500 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 22:17:57 iteration: 193000 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 22:22:05 iteration: 193500 loss: 0.0011 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 22:26:11 iteration: 194000 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 22:30:12 iteration: 194500 loss: 0.0011 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 22:34:17 iteration: 195000 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 22:38:24 iteration: 195500 loss: 0.0011 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 22:42:31 iteration: 196000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 22:46:39 iteration: 196500 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 22:50:51 iteration: 197000 loss: 0.0011 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 22:54:55 iteration: 197500 loss: 0.0011 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 22:59:04 iteration: 198000 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 23:03:15 iteration: 198500 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 23:07:23 iteration: 199000 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 23:11:32 iteration: 199500 loss: 0.0011 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-25 23:15:40 iteration: 200000 loss: 0.0011 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+2023-05-26 09:16:43 Config:
+{'all_joints': [[0],
+                [1],
+                [2],
+                [3],
+                [4],
+                [5],
+                [6],
+                [7],
+                [8],
+                [9],
+                [10],
+                [11],
+                [12],
+                [13],
+                [14],
+                [15],
+                [16],
+                [17]],
+ 'all_joints_names': ['left_ear',
+                      'right_ear',
+                      'left_eye',
+                      'right_eye',
+                      'nose',
+                      'left_shoulder',
+                      'right_shoulder',
+                      'lower_neck',
+                      'left_elbow',
+                      'right_elbow',
+                      'left_wrist',
+                      'right_wrist',
+                      'left_hip',
+                      'right_hip',
+                      'left_knee',
+                      'right_knee',
+                      'left_ankle',
+                      'right_ankle'],
+ 'batch_size': 1,
+ 'crop_pad': 0,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_deepwild2May24\\deepwild2_Charlotte95shuffle1.pickle',
+ 'dataset_type': 'multi-animal-imgaug',
+ 'deterministic': False,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'C:\\Users\\cw266\\.conda\\envs\\DLC\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 1.0,
+ 'locref_smooth': False,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'minconfidence': 0.01,
+ 'mirror': False,
+ 'multi_stage': False,
+ 'net_type': 'resnet_50',
+ 'nmsradius': 5.0,
+ 'num_idchannel': 0,
+ 'num_joints': 18,
+ 'num_limbs': 54,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': True,
+ 'pairwise_predict': False,
+ 'partaffinityfield_graph': [[1, 11],
+                             [1, 9],
+                             [1, 4],
+                             [1, 13],
+                             [7, 11],
+                             [8, 11],
+                             [9, 11],
+                             [2, 11],
+                             [8, 10],
+                             [8, 16],
+                             [8, 9],
+                             [10, 15],
+                             [7, 10],
+                             [10, 12],
+                             [7, 13],
+                             [0, 7],
+                             [4, 7],
+                             [7, 9],
+                             [7, 16],
+                             [7, 12],
+                             [5, 16],
+                             [5, 12],
+                             [5, 9],
+                             [5, 14],
+                             [5, 6],
+                             [5, 15],
+                             [9, 16],
+                             [3, 16],
+                             [3, 13],
+                             [0, 3],
+                             [3, 9],
+                             [3, 15],
+                             [3, 17],
+                             [3, 6],
+                             [3, 12],
+                             [2, 3],
+                             [0, 13],
+                             [2, 13],
+                             [4, 9],
+                             [4, 15],
+                             [2, 4],
+                             [4, 14],
+                             [6, 9],
+                             [9, 15],
+                             [2, 9],
+                             [9, 17],
+                             [12, 15],
+                             [6, 14],
+                             [14, 15],
+                             [14, 17],
+                             [0, 2],
+                             [0, 17],
+                             [2, 17],
+                             [6, 17]],
+ 'partaffinityfield_predict': True,
+ 'regularize': False,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'sigma': 1,
+ 'snapshot_prefix': 'C:\\Users\\cw266\\Videos\\deepwild2-Charlotte-2023-05-24\\dlc-models\\iteration-0\\deepwild2May24-trainset95shuffle1\\test\\snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2023-05-26 09:49:18 Config:
+{'all_joints': [[0],
+                [1],
+                [2],
+                [3],
+                [4],
+                [5],
+                [6],
+                [7],
+                [8],
+                [9],
+                [10],
+                [11],
+                [12],
+                [13],
+                [14],
+                [15],
+                [16],
+                [17]],
+ 'all_joints_names': ['left_ear',
+                      'right_ear',
+                      'left_eye',
+                      'right_eye',
+                      'nose',
+                      'left_shoulder',
+                      'right_shoulder',
+                      'lower_neck',
+                      'left_elbow',
+                      'right_elbow',
+                      'left_wrist',
+                      'right_wrist',
+                      'left_hip',
+                      'right_hip',
+                      'left_knee',
+                      'right_knee',
+                      'left_ankle',
+                      'right_ankle'],
+ 'batch_size': 1,
+ 'crop_pad': 0,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_deepwild2May24\\deepwild2_Charlotte95shuffle1.pickle',
+ 'dataset_type': 'multi-animal-imgaug',
+ 'deterministic': False,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'C:\\Users\\cw266\\.conda\\envs\\DLC\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 1.0,
+ 'locref_smooth': False,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'minconfidence': 0.01,
+ 'mirror': False,
+ 'multi_stage': False,
+ 'net_type': 'resnet_50',
+ 'nmsradius': 5.0,
+ 'num_idchannel': 0,
+ 'num_joints': 18,
+ 'num_limbs': 54,
+ 'optimizer': 'sgd',
+ 'paf_best': [0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53],
+ 'pairwise_huber_loss': True,
+ 'pairwise_predict': False,
+ 'partaffinityfield_graph': [[1, 11],
+                             [1, 9],
+                             [1, 4],
+                             [1, 13],
+                             [7, 11],
+                             [8, 11],
+                             [9, 11],
+                             [2, 11],
+                             [8, 10],
+                             [8, 16],
+                             [8, 9],
+                             [10, 15],
+                             [7, 10],
+                             [10, 12],
+                             [7, 13],
+                             [0, 7],
+                             [4, 7],
+                             [7, 9],
+                             [7, 16],
+                             [7, 12],
+                             [5, 16],
+                             [5, 12],
+                             [5, 9],
+                             [5, 14],
+                             [5, 6],
+                             [5, 15],
+                             [9, 16],
+                             [3, 16],
+                             [3, 13],
+                             [0, 3],
+                             [3, 9],
+                             [3, 15],
+                             [3, 17],
+                             [3, 6],
+                             [3, 12],
+                             [2, 3],
+                             [0, 13],
+                             [2, 13],
+                             [4, 9],
+                             [4, 15],
+                             [2, 4],
+                             [4, 14],
+                             [6, 9],
+                             [9, 15],
+                             [2, 9],
+                             [9, 17],
+                             [12, 15],
+                             [6, 14],
+                             [14, 15],
+                             [14, 17],
+                             [0, 2],
+                             [0, 17],
+                             [2, 17],
+                             [6, 17]],
+ 'partaffinityfield_predict': True,
+ 'regularize': False,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'sigma': 1,
+ 'snapshot_prefix': 'C:\\Users\\cw266\\Videos\\deepwild2-Charlotte-2023-05-24\\dlc-models\\iteration-0\\deepwild2May24-trainset95shuffle1\\test\\snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2023-05-26 11:11:59 Config:
+{'all_joints': [[0],
+                [1],
+                [2],
+                [3],
+                [4],
+                [5],
+                [6],
+                [7],
+                [8],
+                [9],
+                [10],
+                [11],
+                [12],
+                [13],
+                [14],
+                [15],
+                [16],
+                [17]],
+ 'all_joints_names': ['left_ear',
+                      'right_ear',
+                      'left_eye',
+                      'right_eye',
+                      'nose',
+                      'left_shoulder',
+                      'right_shoulder',
+                      'lower_neck',
+                      'left_elbow',
+                      'right_elbow',
+                      'left_wrist',
+                      'right_wrist',
+                      'left_hip',
+                      'right_hip',
+                      'left_knee',
+                      'right_knee',
+                      'left_ankle',
+                      'right_ankle'],
+ 'batch_size': 1,
+ 'crop_pad': 0,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_deepwild2May24\\deepwild2_Charlotte95shuffle1.pickle',
+ 'dataset_type': 'multi-animal-imgaug',
+ 'deterministic': False,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'C:\\Users\\cw266\\.conda\\envs\\DLC\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 1.0,
+ 'locref_smooth': False,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'minconfidence': 0.01,
+ 'mirror': False,
+ 'multi_stage': False,
+ 'net_type': 'resnet_50',
+ 'nmsradius': 5.0,
+ 'num_idchannel': 0,
+ 'num_joints': 18,
+ 'num_limbs': 54,
+ 'optimizer': 'sgd',
+ 'paf_best': [0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53],
+ 'pairwise_huber_loss': True,
+ 'pairwise_predict': False,
+ 'partaffinityfield_graph': [[1, 11],
+                             [1, 9],
+                             [1, 4],
+                             [1, 13],
+                             [7, 11],
+                             [8, 11],
+                             [9, 11],
+                             [2, 11],
+                             [8, 10],
+                             [8, 16],
+                             [8, 9],
+                             [10, 15],
+                             [7, 10],
+                             [10, 12],
+                             [7, 13],
+                             [0, 7],
+                             [4, 7],
+                             [7, 9],
+                             [7, 16],
+                             [7, 12],
+                             [5, 16],
+                             [5, 12],
+                             [5, 9],
+                             [5, 14],
+                             [5, 6],
+                             [5, 15],
+                             [9, 16],
+                             [3, 16],
+                             [3, 13],
+                             [0, 3],
+                             [3, 9],
+                             [3, 15],
+                             [3, 17],
+                             [3, 6],
+                             [3, 12],
+                             [2, 3],
+                             [0, 13],
+                             [2, 13],
+                             [4, 9],
+                             [4, 15],
+                             [2, 4],
+                             [4, 14],
+                             [6, 9],
+                             [9, 15],
+                             [2, 9],
+                             [9, 17],
+                             [12, 15],
+                             [6, 14],
+                             [14, 15],
+                             [14, 17],
+                             [0, 2],
+                             [0, 17],
+                             [2, 17],
+                             [6, 17]],
+ 'partaffinityfield_predict': True,
+ 'regularize': False,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'sigma': 1,
+ 'snapshot_prefix': 'C:\\Users\\cw266\\Videos\\deepwild2-Charlotte-2023-05-24\\dlc-models\\iteration-0\\deepwild2May24-trainset95shuffle1\\test\\snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2023-05-26 11:17:04 Config:
+{'all_joints': [[0],
+                [1],
+                [2],
+                [3],
+                [4],
+                [5],
+                [6],
+                [7],
+                [8],
+                [9],
+                [10],
+                [11],
+                [12],
+                [13],
+                [14],
+                [15],
+                [16],
+                [17]],
+ 'all_joints_names': ['left_ear',
+                      'right_ear',
+                      'left_eye',
+                      'right_eye',
+                      'nose',
+                      'left_shoulder',
+                      'right_shoulder',
+                      'lower_neck',
+                      'left_elbow',
+                      'right_elbow',
+                      'left_wrist',
+                      'right_wrist',
+                      'left_hip',
+                      'right_hip',
+                      'left_knee',
+                      'right_knee',
+                      'left_ankle',
+                      'right_ankle'],
+ 'batch_size': 1,
+ 'crop_pad': 0,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_deepwild2May24\\deepwild2_Charlotte95shuffle1.pickle',
+ 'dataset_type': 'multi-animal-imgaug',
+ 'deterministic': False,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'C:\\Users\\cw266\\.conda\\envs\\DLC\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 1.0,
+ 'locref_smooth': False,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'minconfidence': 0.01,
+ 'mirror': False,
+ 'multi_stage': False,
+ 'net_type': 'resnet_50',
+ 'nmsradius': 5.0,
+ 'num_idchannel': 0,
+ 'num_joints': 18,
+ 'num_limbs': 54,
+ 'optimizer': 'sgd',
+ 'paf_best': [0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53],
+ 'pairwise_huber_loss': True,
+ 'pairwise_predict': False,
+ 'partaffinityfield_graph': [[1, 11],
+                             [1, 9],
+                             [1, 4],
+                             [1, 13],
+                             [7, 11],
+                             [8, 11],
+                             [9, 11],
+                             [2, 11],
+                             [8, 10],
+                             [8, 16],
+                             [8, 9],
+                             [10, 15],
+                             [7, 10],
+                             [10, 12],
+                             [7, 13],
+                             [0, 7],
+                             [4, 7],
+                             [7, 9],
+                             [7, 16],
+                             [7, 12],
+                             [5, 16],
+                             [5, 12],
+                             [5, 9],
+                             [5, 14],
+                             [5, 6],
+                             [5, 15],
+                             [9, 16],
+                             [3, 16],
+                             [3, 13],
+                             [0, 3],
+                             [3, 9],
+                             [3, 15],
+                             [3, 17],
+                             [3, 6],
+                             [3, 12],
+                             [2, 3],
+                             [0, 13],
+                             [2, 13],
+                             [4, 9],
+                             [4, 15],
+                             [2, 4],
+                             [4, 14],
+                             [6, 9],
+                             [9, 15],
+                             [2, 9],
+                             [9, 17],
+                             [12, 15],
+                             [6, 14],
+                             [14, 15],
+                             [14, 17],
+                             [0, 2],
+                             [0, 17],
+                             [2, 17],
+                             [6, 17]],
+ 'partaffinityfield_predict': True,
+ 'regularize': False,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'sigma': 1,
+ 'snapshot_prefix': 'C:\\Users\\cw266\\Videos\\deepwild2-Charlotte-2023-05-24\\dlc-models\\iteration-0\\deepwild2May24-trainset95shuffle1\\test\\snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
