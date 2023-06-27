@@ -1,0 +1,222 @@
+all_joints:
+- - 0
+- - 1
+- - 2
+- - 3
+- - 4
+- - 5
+- - 6
+- - 7
+- - 8
+- - 9
+- - 10
+- - 11
+- - 12
+- - 13
+- - 14
+- - 15
+- - 16
+- - 17
+all_joints_names:
+- left_ear
+- right_ear
+- left_eye
+- right_eye
+- nose
+- left_shoulder
+- right_shoulder
+- lower_neck
+- left_elbow
+- right_elbow
+- left_wrist
+- right_wrist
+- left_hip
+- right_hip
+- left_knee
+- right_knee
+- left_ankle
+- right_ankle
+dataset: 
+  training-datasets\iteration-0\UnaugmentedDataSet_deepwild2May24\deepwild2_Charlotte95shuffle1.pickle
+dataset_type: multi-animal-imgaug
+global_scale: 0.8
+init_weights: 
+  C:\Users\cw266\.conda\envs\DLC\lib\site-packages\deeplabcut\pose_estimation_tensorflow\models\pretrained\resnet_v1_50.ckpt
+location_refinement: true
+locref_smooth: false
+locref_stdev: 7.2801
+minconfidence: 0.01
+multi_stage: false
+net_type: resnet_50
+nmsradius: 5.0
+num_idchannel: 0
+num_joints: 18
+num_limbs: 54
+pairwise_predict: false
+partaffinityfield_graph:
+- - 1
+  - 11
+- - 1
+  - 9
+- - 1
+  - 4
+- - 1
+  - 13
+- - 7
+  - 11
+- - 8
+  - 11
+- - 9
+  - 11
+- - 2
+  - 11
+- - 8
+  - 10
+- - 8
+  - 16
+- - 8
+  - 9
+- - 10
+  - 15
+- - 7
+  - 10
+- - 10
+  - 12
+- - 7
+  - 13
+- - 0
+  - 7
+- - 4
+  - 7
+- - 7
+  - 9
+- - 7
+  - 16
+- - 7
+  - 12
+- - 5
+  - 16
+- - 5
+  - 12
+- - 5
+  - 9
+- - 5
+  - 14
+- - 5
+  - 6
+- - 5
+  - 15
+- - 9
+  - 16
+- - 3
+  - 16
+- - 3
+  - 13
+- - 0
+  - 3
+- - 3
+  - 9
+- - 3
+  - 15
+- - 3
+  - 17
+- - 3
+  - 6
+- - 3
+  - 12
+- - 2
+  - 3
+- - 0
+  - 13
+- - 2
+  - 13
+- - 4
+  - 9
+- - 4
+  - 15
+- - 2
+  - 4
+- - 4
+  - 14
+- - 6
+  - 9
+- - 9
+  - 15
+- - 2
+  - 9
+- - 9
+  - 17
+- - 12
+  - 15
+- - 6
+  - 14
+- - 14
+  - 15
+- - 14
+  - 17
+- - 0
+  - 2
+- - 0
+  - 17
+- - 2
+  - 17
+- - 6
+  - 17
+partaffinityfield_predict: true
+scoremap_dir: test
+sigma: 1
+paf_best:
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+- 12
+- 13
+- 14
+- 15
+- 16
+- 17
+- 18
+- 19
+- 20
+- 21
+- 22
+- 23
+- 24
+- 25
+- 26
+- 27
+- 28
+- 29
+- 30
+- 31
+- 32
+- 33
+- 34
+- 35
+- 36
+- 37
+- 38
+- 39
+- 40
+- 41
+- 42
+- 43
+- 44
+- 45
+- 46
+- 47
+- 48
+- 49
+- 50
+- 51
+- 52
+- 53
