@@ -1,0 +1,15 @@
+## Welcome to DeepWild! ##
+
+We have multiple versions of DeepWild ready to be shared, depending on your needs. 
+
+Deepwild 1.0:
+This is the version of DeepWild we used for the DeepWild paper. It contains 2150 manually marked training frames from 110 diffeeent videos. The model is trained on 2
+species (chimpanzee and bonobo) from 5 different populations. This model is entirely open source and readily downloadable on GitHub. You can add your own training 
+data (either new key features or more training frames). 
+
+Deepwild 1.1: 
+This is our most recent version of DeepWild. It contains 4025 manually marked training frames from 187 different videos. This model is trained on 2 species (chimpanzee
+and bonobo) from 6 different populations. The pre-trained model is open source and ready to download on GitHub. However, some of the videos and training frames are
+not due to sharing restrictions on some of the video data. This means the pre-trained model can be downloaded and you can enter your own novel data to track apes but
+you cannot add your own training data (either new key features or more training frames). If you would like to do so, please contact us via email (cw266@st-andrews.ac.uk)
+and we can discuss sharing this data with you. 
