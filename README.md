@@ -14,10 +14,16 @@ The model tracks 18 key points along an apes body. It can track multiple individ
 ![diagram_dlc](https://user-images.githubusercontent.com/68918736/230898742-6403bdad-a2c2-4c07-885f-5bc8f7c2fbc8.jpg)
 
 ## How can I use DeepWild? 
-You can download the most recent version of the model here. You can use the model 'off the shelf'- input your video data into the model and it will track your apes. Or, you can use this model as a base to change the model to suit your needs. You may want to add new keypoints or add new videos to the training dataset. 
+You can download the most recent version of the model on our google drive
+Link: https://drive.google.com/drive/folders/1lGF3vaX2Qz8nasnS9NAZ1NKkI8DkHXrr
+We currently have two models available.
+Deepwild1.0: This is the model demonstrated in our paper. You can use the model 'off the shelf'- input your video data into the model and it will track your apes. Or, you can use this model as a base to change the model to suit your needs. You may want to add new keypoints or add new videos to the training dataset. 
+Deepwild1.1: This is our most recent version of the model, containing more training frames from more populations. You can use the model 'off the shelf'- input your video data into the model and it will track your apes. If you would like to use this model as a base to change the model to suit your needs, please contact us. Some of the frames and videos needed to re-train the model are not open source. 
 
 ## DeepWild Paper
-Coming soon!
+DeepWild: Application of the pose estimation tool DeepLabCut for behaviour tracking in wild chimpanzees and bonobos
+By: Charlotte Wiltshire, James Lewis-Cheetham, Viola Komedová, Tetsuro Matsuzawa, Kirsty E. Graham, Catherine Hobaiter
+Link to paper: https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/1365-2656.13932
 
 ## Marking frames for DeepWild 
 If you would like to contribute to DeepWild, you can label frames to help train the model here:
